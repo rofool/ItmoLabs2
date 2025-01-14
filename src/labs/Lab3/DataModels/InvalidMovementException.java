@@ -5,7 +5,6 @@ public class InvalidMovementException extends Exception {
         super(message);
     }
 
-    // Переопределение метода getMessage
     @Override
     public String getMessage() {
         return "Ошибка движения: " + super.getMessage();

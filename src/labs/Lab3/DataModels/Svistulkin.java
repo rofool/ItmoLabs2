@@ -14,7 +14,6 @@ public class Svistulkin extends Person {
         System.out.println("Свистулькин движется по улице " + getStreet().name());
     }
 
-    // Переопределение equals
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
@@ -22,13 +21,11 @@ public class Svistulkin extends Person {
         return getClass() == obj.getClass();
     }
 
-    // Переопределение hashCode
     @Override
     public int hashCode() {
         return super.hashCode();
     }
 
-    // Переопределение toString
     @Override
     public String toString() {
         return "Свистулькин: " + super.toString();

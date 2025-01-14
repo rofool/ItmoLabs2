@@ -6,16 +6,13 @@ import java.util.ArrayList;
 
 public class MainEvent {
     public static void main(String[] args) {
-        // Создаем несколько объектов улиц
         Street macaroniStreet = new Street("Макаронная улица", "центр города");
         Street hospitalStreet = new Street("Улица больницы", "на окраине");
 
-        // Создаем список персонажей
         ArrayList<Person> people = new ArrayList<>();
         people.add(new Svistulkin(State.HEALTHY, macaroniStreet));
         people.add(new Karaulkin(State.CONFUSED, hospitalStreet));
 
-        // Проходим по списку и пытаемся вызвать move()
         for (Person person : people) {
             try {
                 person.move();

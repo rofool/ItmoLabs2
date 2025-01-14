@@ -33,7 +33,6 @@ public abstract class Person implements Movable {
         this.state = state;
     }
 
-    // Переопределение equals
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
@@ -42,7 +41,6 @@ public abstract class Person implements Movable {
         return name.equals(person.name) && state == person.state && street.equals(person.street);
     }
 
-    // Переопределение hashCode
     @Override
     public int hashCode() {
         int result = name.hashCode();
@@ -51,7 +49,6 @@ public abstract class Person implements Movable {
         return result;
     }
 
-    // Переопределение toString
     @Override
     public String toString() {
         return "Person{name='" + name + "', state=" + state + ", street=" + street + "}";
