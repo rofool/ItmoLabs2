@@ -1,14 +1,13 @@
-package Lab2.pokemons;
+package main.pokemons;
 
-import Lab2.Attacks.PhysicalAttacks.DoubleEdge;
-import Lab2.Attacks.PhysicalAttacks.RockSlide;
-import Lab2.Attacks.PhysicalAttacks.Tackle;
+import main.Attacks.PhysicalAttacks.DoubleEdge;
+import main.Attacks.PhysicalAttacks.RockSlide;
+import main.Attacks.PhysicalAttacks.Tackle;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
 
 public class Onix extends Pokemon {
-
     public Onix(String name, int level) {
         super(name, level);
         super.setType(Type.ROCK);

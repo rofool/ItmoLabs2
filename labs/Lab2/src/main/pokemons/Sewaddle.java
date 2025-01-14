@@ -1,6 +1,6 @@
-package Lab2.pokemons;
+package main.pokemons;
 
-import Lab2.Attacks.PhysicalAttacks.*;
+import labs.Lab2.Attacks.PhysicalAttacks.*;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

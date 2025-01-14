@@ -1,4 +1,4 @@
-package Lab2.Attacks.StatusAttacks;
+package main.Attacks.StatusAttacks;
 
 import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.Pokemon;

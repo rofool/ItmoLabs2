@@ -1,4 +1,4 @@
-package Lab2.Attacks.PhysicalAttacks;
+package main.Attacks.PhysicalAttacks;
 
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Pokemon;

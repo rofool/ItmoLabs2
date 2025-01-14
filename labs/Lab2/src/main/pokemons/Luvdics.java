@@ -1,9 +1,9 @@
-package Lab2.pokemons;
+package main.pokemons;
 
-import Lab2.Attacks.PhysicalAttacks.AquaJet;
-import Lab2.Attacks.StatusAttacks.Rest;
-import Lab2.Attacks.StatusAttacks.Supersonic;
-import Lab2.Attacks.StatusAttacks.SweetKiss;
+import main.Attacks.PhysicalAttacks.AquaJet;
+import main.Attacks.StatusAttacks.Rest;
+import main.Attacks.StatusAttacks.Supersonic;
+import main.Attacks.StatusAttacks.SweetKiss;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

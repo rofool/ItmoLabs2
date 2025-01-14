@@ -1,4 +1,4 @@
-package Lab2.Attacks.SpecialAttacks;
+package main.Attacks.SpecialAttacks;
 
 import ru.ifmo.se.pokemon.*;
 

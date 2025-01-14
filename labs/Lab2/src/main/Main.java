@@ -1,8 +1,8 @@
-package Lab2;
+package main;
 
-import Lab2.pokemons.Luvdics;
-import Lab2.pokemons.Onix;
-import Lab2.pokemons.*;
+import labs.Lab2.pokemons.Luvdics;
+import labs.Lab2.pokemons.Onix;
+import main.pokemons.*;
 import ru.ifmo.se.pokemon.Battle;
 
 public class Main {

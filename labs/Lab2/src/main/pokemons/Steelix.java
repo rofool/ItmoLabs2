@@ -1,6 +1,6 @@
-package Lab2.pokemons;
+package main.pokemons;
 
-import Lab2.Attacks.PhysicalAttacks.FireFang;
+import labs.Lab2.Attacks.PhysicalAttacks.FireFang;
 import ru.ifmo.se.pokemon.Type;
 
 

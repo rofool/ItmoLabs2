@@ -1,6 +1,6 @@
-package Lab2.pokemons;
+package main.pokemons;
 
-import Lab2.Attacks.SpecialAttacks.EnergyBall;
+import main.Attacks.SpecialAttacks.EnergyBall;
 import ru.ifmo.se.pokemon.Type;
 
 public final class Leavanny extends Swadloon {
